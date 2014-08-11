@@ -7,6 +7,6 @@ Assemby Codes
 
 It only compile fine in 32 bits
 
--# as --32 -o Fibonacci.o Fibonacci.s
+-# as -o Fibonacci.o Fibonacci.s
 
--# ld -melf_i386 -dynamic-linker /lib/ld-linux.so.2 -lc -o fibonacci Fibonacci.o
+-# ld -dynamic-linker /lib/ld-linux.so.2 -lc -o fibonacci Fibonacci.o
