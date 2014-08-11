@@ -1,7 +1,7 @@
 Assembly AT&T
 ========
 
-Assemby Codes
+Assembly Codes
 
 1) Fibonacci
 
