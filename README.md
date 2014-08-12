@@ -25,6 +25,6 @@ $ ld -m elf_i386 -dynamic-linker /lib/ld-linux.so.2 -lc -o fibonacci asFibonacci
  
 ## 3)  cFibonacci.s
  
- Assembly code generate by gcc at 32 bits
+ Assembly code generate by gcc in 32 bits
 
 $ gcc -m32 -S cFibonacci.c
