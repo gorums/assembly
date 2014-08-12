@@ -13,7 +13,7 @@ $ as -o asFibonacci.o asFibonacci.s
 
 $ ld -dynamic-linker /lib/ld-linux.so.2 -lc -o fibonacci asFibonacci.o
 
-Compile in 64 bits
+Compile in 64 bits to 32 bits
 
 $ as --32 -o asFibonacci.o asFibonacci.s
 
